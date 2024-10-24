@@ -1,0 +1,68 @@
+/* Reset default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* Include padding and border in the element's total width and height */
+}
+
+body,
+html {
+  height: 100%;
+  /* Full height for body and html */
+  background-color: #0e0e2c;
+  /* Dark background */
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  /* Modern font */
+  display: flex;
+  /* Use flexbox to arrange content */
+  flex-direction: column;
+  /* Stack elements vertically */
+}
+
+.hero {
+  background: linear-gradient(135deg, #00c6ff, #0072ff);
+  padding: 40px 20px;
+  text-align: center;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+  margin-bottom: 30px;
+  /* Space between sections */
+}
+
+.container {
+  width: 100%;
+  /* Full width */
+  max-width: 600px;
+  /* Max width for the container */
+  padding: 30px;
+  border-radius: 15px;
+  background-color: #282a36;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  /* Center text inside container */
+  margin: auto;
+  /* Center the container horizontally */
+}
+
+.btn-custom {
+  background: linear-gradient(90deg, #00c6ff, #0072ff);
+  border: none;
+  width: 100%;
+  /* Full width for button */
+  padding: 10px;
+  /* Padding for button */
+}
+
+.btn-custom:hover {
+  background: linear-gradient(90deg, #0072ff, #00c6ff);
+}
+
+.footer {
+  text-align: center;
+  background-color: #1b1b2a;
+  padding: 20px 0;
+  /* Padding for the footer */
+  width: 100%;
+  /* Full width for footer */
+}

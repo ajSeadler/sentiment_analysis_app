@@ -1,0 +1,21 @@
+# Byte-compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment variables
+.env
+
+# Virtual environment directories
+venv/
+env/
+.env/
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# Other files and directories to ignore
+*.log
+*.sqlite3
